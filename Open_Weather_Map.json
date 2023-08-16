@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "8f7b770d-2c89-471b-8288-222f3d366556",
+		"name": "Open_Weather_Map",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29158859"
+	},
+	"item": [
+		{
+			"name": "BangaloreWeatherReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=241af1738a9aca9af5cbbb77d330d4a8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Bangalore"
+						},
+						{
+							"key": "appid",
+							"value": "241af1738a9aca9af5cbbb77d330d4a8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
